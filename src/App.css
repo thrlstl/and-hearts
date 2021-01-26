@@ -2,37 +2,118 @@
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.heart {
+  padding: 50px;
+  margin-top: 40vh;
+  max-height: 20vh;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.heart[animation="0"] {
+  animation: pulsate-bck 0.8s ease-in-out infinite both;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.heart[animation="1"] {
+  animation: jello-horizontal 0.9s both;
+}
+
+.header-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  background-color: white;
+  width: 100vw;
+  height: 60px;
 }
 
-.App-link {
-  color: #61dafb;
+.header-text {
+  color: black;
+  font-family: "Andale Mono";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 20px;
+  margin-top: 20px;
+  text-decoration: none;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+.header-text:hover {
+  color: #9c003b;
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.notifications-container {
+  font-size: 15px;
+  height: 40px;
+  width: 40px;
+  position: fixed;
+  top: 15px;
+  right: 10px;
+}
+
+.notifications-container[animation="1"] {
+  animation: heartbeat 1.5s ease-in-out both;
+}
+
+.heart-icon {
+  max-width: 100%;
+  max-height: 100%;
+}
+
+@keyframes pulsate-bck {
+  0% {
+    transform: scale(1);
   }
-  to {
-    transform: rotate(360deg);
+  50% {
+    transform: scale(0.9);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+@keyframes jello-horizontal {
+  0% {
+    transform: scale3d(1, 1, 1);
+  }
+  30% {
+    transform: scale3d(1.25, 0.75, 1);
+  }
+  40% {
+    transform: scale3d(0.75, 1.25, 1);
+  }
+  50% {
+    transform: scale3d(1.15, 0.85, 1);
+  }
+  65% {
+    transform: scale3d(0.95, 1.05, 1);
+  }
+  75% {
+    transform: scale3d(1.05, 0.95, 1);
+  }
+  100% {
+    transform: scale3d(1, 1, 1);
+  }
+}
+
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+    transform-origin: center center;
+    animation-timing-function: ease-out;
+  }
+  10% {
+    transform: scale(0.91);
+    animation-timing-function: ease-in;
+  }
+  17% {
+    transform: scale(0.98);
+    animation-timing-function: ease-out;
+  }
+  33% {
+    transform: scale(0.87);
+    animation-timing-function: ease-in;
+  }
+  45% {
+    transform: scale(1);
+    animation-timing-function: ease-out;
   }
 }
