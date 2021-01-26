@@ -101,15 +101,15 @@
     animation-timing-function: ease-out;
   }
   10% {
-    transform: scale(0.91);
+    transform: scale(0.5);
     animation-timing-function: ease-in;
   }
   17% {
-    transform: scale(0.98);
+    transform: scale(0.9);
     animation-timing-function: ease-out;
   }
   33% {
-    transform: scale(0.87);
+    transform: scale(0.5);
     animation-timing-function: ease-in;
   }
   45% {
