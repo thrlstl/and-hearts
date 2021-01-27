@@ -6,7 +6,8 @@ export default function Header(props) {
 
     const [animation, setAnimation] = useState(0)
     const toggle = props.toggle
-    const URL = `https://www.linkedin.com/in/matthewsteeleonline/`
+    const linkedIn = `https://www.linkedin.com/in/matthewsteeleonline/`
+    const github = `https://github.com/thrlstl/and-hearts`
 
     useEffect(() => {
         renderNotification()
@@ -18,7 +19,9 @@ export default function Header(props) {
 
     return (
     <div className='header-container'>
-            <a className='header-text' target="_blank" href={URL}>by Matthew Steele</a>
+            <a className='header-link-1' target="_blank" href={github}>Code</a>
+            <text className='header-text'>|</text>
+            <a className='header-link-2' target="_blank" href={linkedIn}>by Matthew Steele</a>
         <div
         className='notifications-container'
         animation={animation}

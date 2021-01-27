@@ -29,12 +29,40 @@
   font-weight: bold;
   font-style: italic;
   font-size: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.header-link-1 {
+  color: black;
+  font-family: "Andale Mono";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
   margin-left: 20px;
   margin-top: 20px;
   text-decoration: none;
 }
 
-.header-text:hover {
+.header-link-2 {
+  color: black;
+  font-family: "Andale Mono";
+  font-weight: bold;
+  font-style: italic;
+  font-size: 16px;
+  margin-left: 10px;
+  margin-top: 20px;
+  text-decoration: none;
+}
+
+.header-link-1:hover {
+  color: #9c003b;
+  transform: scale(1.04);
+  transition: all 0.2s ease-in-out;
+}
+
+.header-link-2:hover {
   color: #9c003b;
   transform: scale(1.04);
   transition: all 0.2s ease-in-out;
