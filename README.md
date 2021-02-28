@@ -4,15 +4,13 @@
 	<h1>&𝙃𝙚𝙖𝙧𝙩𝙨</h1>
 </div>
 
-## 𝘼𝙗𝙤𝙪𝙩 𝙩𝙝𝙞𝙨 𝘼𝙥𝙥𝙡𝙞𝙘𝙖𝙩𝙞𝙤𝙣
-
 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 — Animated 'like' button and notification with React Hooks, CSS and Javascript.
 
 I created this educational React application in conjunction with my [blog](https://medium.com/swlh/css-animations-with-react-hooks-1d855dab4a3 "Blog") published in The Startup - CSS Animations with React Hooks. Together, they demonstrate how to animate an application with cleaner state changes and attribute selectors.
 
-- _Created by Matthew Steele_ — [LinkedIn](https://www.linkedin.com/in/matthewsteeleonline/ "LinkedIn")
-- Live Site — https://and-hearts.netlify.app/
-- Blog Post — [CSS Animations with React Hooks](https://medium.com/swlh/css-animations-with-react-hooks-1d855dab4a3 "Blog")
+- 𝗖𝗿𝗲𝗮𝘁𝗲𝗱 𝗯𝘆 𝗠𝗮𝘁𝘁𝗵𝗲𝘄 𝗦𝘁𝗲𝗲𝗹𝗲 — [LinkedIn](https://www.linkedin.com/in/matthewsteeleonline/ "LinkedIn")
+- 𝗟𝗶𝘃𝗲 𝗦𝗶𝘁𝗲 — https://and-hearts.netlify.app/
+- 𝗕𝗹𝗼𝗴 𝗣𝗼𝘀𝘁 — [CSS Animations with React Hooks](https://medium.com/swlh/css-animations-with-react-hooks-1d855dab4a3 "Blog")
 
 <br>
 
