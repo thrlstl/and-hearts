@@ -1,8 +1,6 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/thrlstl/and-hearts)
 
-<div align="center">
-	<h1>&𝙃𝙚𝙖𝙧𝙩𝙨</h1>
-</div>
+# &𝙃𝙚𝙖𝙧𝙩𝙨
 
 𝗙𝗲𝗮𝘁𝘂𝗿𝗲 — Animated 'like' button and notification with React Hooks, CSS and Javascript.
 
