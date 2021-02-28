@@ -2,7 +2,7 @@
 
 # &𝙃𝙚𝙖𝙧𝙩𝙨
 
-𝗙𝗲𝗮𝘁𝘂𝗿𝗲 — Animated 'like' button and notification with React Hooks, CSS and Javascript.
+𝗙𝗲𝗮𝘁𝘂𝗿𝗲 — Animated 'like' button and notification with 𝗥𝗲𝗮𝗰𝘁 𝗛𝗼𝗼𝗸𝘀, 𝗖𝗦𝗦 and 𝗝𝗮𝘃𝗮𝘀𝗰𝗿𝗶𝗽𝘁.
 
 I created this educational React application in conjunction with my [blog](https://medium.com/swlh/css-animations-with-react-hooks-1d855dab4a3 "Blog") published in The Startup - CSS Animations with React Hooks. Together, they demonstrate how to animate an application with cleaner state changes and attribute selectors.
 
