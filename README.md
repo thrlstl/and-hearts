@@ -1,3 +1,5 @@
+![GitHub last commit](https://img.shields.io/github/last-commit/thrlstl/and-hearts)
+
 # &𝙃𝙚𝙖𝙧𝙩𝙨
 
 - _Created by Matthew Steele_ — [LinkedIn](https://www.linkedin.com/in/matthewsteeleonline/ "LinkedIn")
